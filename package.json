@@ -1,16 +1,16 @@
 {
-    "name": "NullSex-Area/NullBails",
+    "name": "LolipopExe/LolipopBails",
     "version": "1.7.3",
-    "description": "WhatsApp Modified By KairossReals 4 0 4",
+    "description": "WhatsApp Modified By LolipopBails Strom",
     "keywords": [
         "whatsapp-baileys"
     ],
-    "homepage": "https://github.com/NullSex-Area/NullBails",
+    "homepage": "https://github.com/LolipopExe/LolipopBails",
     "repository": {
-        "url": "https://github.com/NullSex-Area/NullBails"
+        "url": "https://github.com/LolipopExe/LolipopBails"
     },
     "license": "MIT",
-    "author": "Kaiross - Determinator",
+    "author": "Strom - Determinator",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
@@ -45,7 +45,7 @@
         "futoin-hkdf": "^1.5.1",
         "libphonenumber-js": "^1.10.20",
         "lodash": "^4.17.21",
-        "libsignal": "github:NullSex-Area/libsignal-node",
+        "libsignal": "github:LolipopExe/libsignal-node",
         "music-metadata": "^7.12.3",
         "node-cache": "^5.1.2",
         "node-fetch": "^2.6.1",
@@ -101,6 +101,6 @@
         "node": ">=20.0.0"
     }, 
     "bugs": {
-      "url": "https://NullSex-Area/NullBails/issues"
+      "url": "https://LolipopExe/LolipopBails/issues"
     }
 }
