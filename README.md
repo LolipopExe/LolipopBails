@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/79eu54.jpg" width="172">
+  <img src="https://files.catbox.moe/fa2j6a.jpg" width="172">
 </p>
 
 --- 
@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:NullSex-Area/NullBails"
+  "@whiskeysockets/baileys": "github:LolipopExe/LolipopBails"
 }
 ```
 ## Import
@@ -63,7 +63,7 @@ const ZeppImg = fs.readFileSync('./ZeppImage');
 await client.sendMessage(m.chat, {
   thumbnail: ZeppImg,
   message: "Gotta get a grip",
-  orderTitle: "NullSex-Corporation",
+  orderTitle: "Lolipop-Corporation",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -73,7 +73,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "NullSex-Corporation",
+    name: "Lolipop-Corporation",
     options: [
       {
         optionName: "poll 1"
@@ -83,7 +83,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "NullSex 4 0 4 | Informasi",
+      newsletterName: "BullCrasher | Informasi",
       newsletterJid: "120363400747111340@newsletter"
     }
   }
@@ -94,18 +94,18 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "NullSex.pdf",
+    title: "Lolipop.pdf",
     description: "zZZ...",
     thumbnail: { url: "./ZeppImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/KairossReals",
+    url: "https://t.me/strom_primrose",
     body: "Pemburu Girl",
     footer: "Footer",
     buttons: [
       {
         name: "cta_url",
-        buttonParamsJson: "{\"display_text\":\"NullSex-Pdf\",\"url\":\"https://t.me/KairossReals\"}"
+        buttonParamsJson: "{\"display_text\":\"Lolipop-Pdf\",\"url\":\"https://t.me/strom_primrose\"}"
       }
     ],
     priceAmount1000: 72502,
@@ -113,4 +113,4 @@ await client.relayMessage(m.chat, {
   }
 })
 ```
-Follow https://t.me/pantatbergoyang kalau mau liat type message yg lain :v
+Follow https://t.me/BullCrasherComunity kalau mau liat type message yg lain :v
